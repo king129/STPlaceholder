@@ -1,0 +1,6 @@
+framework module Pods_STPlaceholder_Tests {
+  umbrella header "Pods-STPlaceholder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

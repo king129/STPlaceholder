@@ -9,5 +9,7 @@
 @import UIKit;
 
 @interface STViewController : UIViewController
+- (IBAction)table:(id)sender;
+- (IBAction)collection:(id)sender;
 
 @end

@@ -7,6 +7,8 @@
 //
 
 #import "STViewController.h"
+#import "PVViewController.h"
+#import "CollectionViewController.h"
 
 @interface STViewController ()
 
@@ -26,4 +28,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)table:(id)sender {
+    PVViewController *c = [[PVViewController alloc] init] ;
+    [self.navigationController pushViewController:c animated:YES] ;
+}
+
+- (IBAction)collection:(id)sender {
+    CollectionViewController *c = [[CollectionViewController alloc] init] ;
+    [self.navigationController pushViewController:c animated:YES] ;
+}
 @end

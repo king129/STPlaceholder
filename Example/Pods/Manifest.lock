@@ -1,0 +1,16 @@
+PODS:
+  - STPlaceholder (0.1.0)
+
+DEPENDENCIES:
+  - STPlaceholder (from `../`)
+
+EXTERNAL SOURCES:
+  STPlaceholder:
+    :path: ../
+
+SPEC CHECKSUMS:
+  STPlaceholder: 48d0fa9692339b414935fd9342c2c70a41776b89
+
+PODFILE CHECKSUM: c28a811f8b4af2b4900cb575fdd3566782a42eba
+
+COCOAPODS: 1.4.0
