@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'STPlaceholder_Example' do
+  pod 'STPlaceholder', :path => '../'
+
+  target 'STPlaceholder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
